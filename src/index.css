@@ -1,19 +1,25 @@
 /* Reset básico */
 * {
+  background-color: rgba(0, 0, 0, 0.01);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
 }
-
+body {
+  background-image: url('/public/pexels-fhstudio-2747893.jpg'); /* URL da imagem */
+  background-size: cover;      /* A imagem cobre toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-attachment: fixed; /* Mantém a imagem fixa durante o scroll */
+}
 header {
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
   padding: 1rem;
   text-align: center;
